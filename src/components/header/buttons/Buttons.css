@@ -1,0 +1,7 @@
+.buttons {
+    margin-top: 2.5rem;
+    display: inherit;
+    justify-content: space-between;
+    width: 310px;
+    margin-bottom: 60px;
+}

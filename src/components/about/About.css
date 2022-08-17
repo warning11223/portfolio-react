@@ -1,0 +1,130 @@
+.about__container {
+    display: flex;
+    justify-content: space-between;
+    height: max-content;
+    gap: 5rem;
+    margin-bottom: 15rem;
+}
+.about__title {
+    color: var(--color-primary);
+}
+.about__img {
+    height: 500px;
+    width: 500px;
+    border-radius: 2rem;
+    transform: rotate(10deg);
+    transition: var(--transition);
+}
+.about__img:hover {
+    transform: rotate(0deg);
+}
+.about__right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.about__cards {
+    display: flex;
+    gap: 1.5rem;
+}
+.about__card {
+    background: var( --color-bg-variant);
+    border-radius: 2rem;
+    padding: 3rem;
+    text-align: center;
+    border: 1px solid var( --color-bg-variant);
+    transition: var(--transition);
+}
+.about__card:hover {
+    background: transparent;
+    border: 1px solid var(--color-white)
+}
+.about__text {
+    max-width: 46rem;
+    font-size: 1.3rem;
+    color: var(--color-light);
+}
+.about__card-icon {
+    color: var(--color-primary);
+    transition: var(--transition);
+    font-size: 5rem;
+    display: flex;
+    margin: 0 auto;
+}
+.about__card-icon:hover {
+    transform: rotate(360deg);
+}
+.about__card-text {
+    font-size: 1.5rem;
+    color: var(--color-white);
+}
+.about__card-par {
+    color: var(--color-light);
+    font-size: 0.92rem;
+}
+.about__left {
+
+}
+.about__me {
+    width: 500px;
+    height: 500px;
+    background: linear-gradient(45deg, transparent, var(--color-primary), transparent);
+    border-radius: 2rem;
+}
+
+
+
+
+
+/*====================tablets===================*/
+
+@media screen and (max-width: 1350px) {
+    .about__container {
+        flex-direction: column;
+        justify-content: center;
+        width: var(--container-width-md);
+        align-items: center;
+    }
+    .about__img {
+        margin-top: 1rem;
+    }
+    .about__cards {
+        display: block;
+        width: max-content;
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .about__card {
+        margin-bottom: 1rem;
+    }
+    .about__text {
+        margin: 0 auto;
+        text-align: center;
+    }
+    .about_btn {
+        margin:0 auto;
+        margin-top: 1.5rem;
+    }
+    .about__right {
+        width: 100%;
+    }
+    .about__left {
+        width: auto;
+    }
+}
+
+/*====================mobile phones===================*/
+
+@media screen and (max-width: 600px) {
+    .about__img {
+        width: 300px;
+        height: 300px;
+    }
+    .about__me {
+        width: 300px;
+        height: 300px;
+    }
+}

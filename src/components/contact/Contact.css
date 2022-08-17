@@ -1,0 +1,104 @@
+.contact__container {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2rem;
+}
+.contact__item {
+    background: var(--color-bg-variant);
+    border-radius: 2rem;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    transition: var(--transition);
+    border: 1px solid transparent;
+}
+.contact__item:hover {
+    background: transparent;
+    border: 1px solid var(--color-white);
+}
+.contact__item-icon {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+}
+.contact__item-text {
+    margin-bottom: 1.5rem;
+}
+.contact__form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.contact__title {
+    color: var(--color-primary);
+}
+.contact__form-name {
+    width: 100%;
+    background: transparent;
+    border: 1px solid var(--color-primary-variant);
+    border-radius: 1rem;
+    padding: 2rem;
+    font-size: 1.3rem;
+    color: var(--color-white);
+    transition: var(--transition);
+    margin-bottom: 2rem;
+}
+.contact__form-name:focus {
+    border: 1px solid var(--color-white);
+}
+.contact__form-email {
+    width: 100%;
+    background: transparent;
+    border: 1px solid var(--color-primary-variant);
+    border-radius: 1rem;
+    padding: 2rem;
+    font-size: 1.3rem;
+    color: var(--color-white);
+    transition: var(--transition);
+    margin-bottom: 2rem;
+}
+.contact__form-email:focus {
+    border: 1px solid var(--color-white);
+}
+.contact__form-area {
+    width: 100%;
+    background: transparent;
+    border: 1px solid var(--color-primary-variant);
+    border-radius: 1rem;
+    padding: 2rem;
+    font-size: 1.3rem;
+    color: var(--color-white);
+    transition: var(--transition);
+    margin-bottom: 2rem;
+}
+.contact__form-area:focus {
+    border: 1px solid var(--color-white);
+}
+.contact__form-text {
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+    color: var(--color-primary);
+}
+
+
+@media screen and (max-width: 900px) {
+    .contact__container {
+        display: block;
+        width: 50%;
+    }
+    .contact__form {
+        width: 100%;
+    }
+    .contact__form-btn {
+        margin: 0 auto;
+    }
+}
+/*====================mobile phones===================*/
+
+@media screen and (max-width: 600px) {
+    .contact__container {
+        width: 90%;
+    }
+}
+
+
+

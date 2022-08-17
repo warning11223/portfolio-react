@@ -1,0 +1,64 @@
+.footer {
+    width: 100%;
+    background: var(--color-primary);
+    text-align: center;
+    position: relative;
+}
+.footer__title {
+    font-size: 3rem;
+    padding-top: 3rem;
+    color: var(--color-bg);
+    text-transform: uppercase;
+
+}
+.footer__list-links {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    padding-top: 1rem;
+    margin-bottom: 2rem;
+}
+.footer__list-links-item a {
+    color: var(--color-bg);
+}
+.footer__list-icons {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+.footer__list-icons-link{
+    color: var(--color-bg);
+    font-size: 3rem;
+}
+.footer__rights {
+    padding-bottom: 7.5rem;
+    color: var(--color-bg);
+}
+.footer__arrow {
+    color: var(--color-bg);
+    right: 3rem;
+    bottom: 1rem;
+
+    position: absolute;
+    font-size: 3rem;
+}
+
+@media screen and (max-width: 900px) {
+    .footer {
+        margin-top: 5rem;
+    }
+}
+/*====================mobile phones===================*/
+
+@media screen and (max-width: 600px) {
+    .footer__list-links {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+    .footer__list-icons {
+        margin-bottom: 1rem;
+    }
+}
+
+
