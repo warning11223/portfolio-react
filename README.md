@@ -7,3 +7,4 @@
 - **React icons**
 - **React Hooks**
 - **EmailJS**
+- **Responsive**
