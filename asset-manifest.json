@@ -1,20 +1,23 @@
 {
   "files": {
-    "main.css": "/portfolio-react/static/css/main.6634b9fa.css",
-    "main.js": "/portfolio-react/static/js/main.bb95deb4.js",
+    "main.css": "/portfolio-react/static/css/main.c62896dc.css",
+    "main.js": "/portfolio-react/static/js/main.94b8b756.js",
     "static/media/me1.png": "/portfolio-react/static/media/me1.5e0d337132363a37e402.png",
-    "static/media/pizza.png": "/portfolio-react/static/media/pizza.438ef378dcfa02c22375.png",
+    "static/media/tesla.png": "/portfolio-react/static/media/tesla.8850e0d1d1886888d0ca.png",
+    "static/media/clinic.png": "/portfolio-react/static/media/clinic.f92a9dfea2c93a4578e9.png",
     "static/media/me-about.jpg": "/portfolio-react/static/media/me-about.b5c43ead74b976bf6c3e.jpg",
-    "static/media/Denis_resume.pdf": "/portfolio-react/static/media/Denis_resume.00d7f0eb8dce02f621ec.pdf",
-    "static/media/gh-search.png": "/portfolio-react/static/media/gh-search.e0881f6f6256434cf5a0.png",
-    "static/media/airports.png": "/portfolio-react/static/media/airports.2a0191743ab14137f5f2.png",
-    "static/media/contacts.png": "/portfolio-react/static/media/contacts.4fef07f31acc4a8a43ce.png",
+    "static/media/Denis_resume.pdf": "/portfolio-react/static/media/Denis_resume.10a716b8ba522d4c2b0d.pdf",
+    "static/media/dashboard.png": "/portfolio-react/static/media/dashboard.a23ffd42b16ff5c75151.png",
+    "static/media/cards.png": "/portfolio-react/static/media/cards.797baa2224ccd3cfd30e.png",
+    "static/media/communicate.png": "/portfolio-react/static/media/communicate.c0ece63fc4a023abedd2.png",
+    "static/media/insta.png": "/portfolio-react/static/media/insta.bbd75883589e367e5634.png",
+    "static/media/notes.png": "/portfolio-react/static/media/notes.cda345d10f4080b8283e.png",
     "index.html": "/portfolio-react/index.html",
-    "main.6634b9fa.css.map": "/portfolio-react/static/css/main.6634b9fa.css.map",
-    "main.bb95deb4.js.map": "/portfolio-react/static/js/main.bb95deb4.js.map"
+    "main.c62896dc.css.map": "/portfolio-react/static/css/main.c62896dc.css.map",
+    "main.94b8b756.js.map": "/portfolio-react/static/js/main.94b8b756.js.map"
   },
   "entrypoints": [
-    "static/css/main.6634b9fa.css",
-    "static/js/main.bb95deb4.js"
+    "static/css/main.c62896dc.css",
+    "static/js/main.94b8b756.js"
   ]
 }
