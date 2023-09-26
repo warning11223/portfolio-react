@@ -8,6 +8,7 @@
     border-radius: 2rem;
     overflow: hidden;
     padding: 1.2rem;
+    object-fit: fill;
 }
 .portfolio__items {
     display: grid;
